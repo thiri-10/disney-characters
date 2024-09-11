@@ -1,11 +1,11 @@
 
 "use client";
 import Image from "next/image";
-import { Inter } from "next/font/google";
+
 import { useState } from "react";
 import { motion } from "framer-motion";
 
-const inter = Inter({ subsets: ["latin"] });
+
 const pictures = [
   {
     id: 1,
@@ -65,7 +65,7 @@ export default function Home() {
 
       <nav className="flex justify-between  p-8">
         <div className="">
-          <p><span className={inter.className}>Disney</span> Characters</p>
+          <p>Disney Characters</p>
         </div>
         <div >
           <input type="text" className="inline-block rounded "
