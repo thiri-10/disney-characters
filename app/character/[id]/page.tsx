@@ -43,7 +43,7 @@ const pictures = [
       movie: "Tangled"
     },
   ];
-export default function Page(){
+export default function Character(){
 
   const router = useRouter();
 
